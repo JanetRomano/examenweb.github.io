@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+.principal{
+    display: flex;
+  height: 100%;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.principal1{
+    display: flex;
+    position: relative;
+    width: 40%;
+    height: 100vh;
+    background-color: #ebe7f2;
+    
+}
+.principal2{
+    display: flex;
+    position: relative;
+    width: 60%;
+    height: 100vh;
+    background-color: #f5f2f8;
+}
+
+.contenedor{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    overflow: hidden;
+    position: absolute;
+    border: 5px solid white;
+    border-radius: 22px ;
+      box-shadow: 3px 5px 20px 0px #00000032;
+  
+}
+
+.logo{
+    width: 37.5%;
+    height: 100%;
+    position: relative;
+    background-color: #f4f2f9;
+}
+img{
+    position: absolute;
+    top: 2%;
+    left: 10%;
+  
+    width: auto;
+    height: 70px;
+  }
+
+  .logo h1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .resaltado {
+    color: #693bb7;
+   
+  }
+  .cohete{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    top: 35%;
+    left: 0%;
+  }
+  .nube{
+    position: absolute;
+    width: 25%;
+    height: 12%;
+    top: 90.4%;
+    left: 0%;
+  }
+
+  .form {
+    background-color: #ffffff;
+    width: 62.5%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .form h1 {
+    font-size: larger;
+    margin: 20% 29% 5%;
+    width: 24%;
+    font-size: 25px;
+  }
+
+    .form p{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 20px;
+        margin-right: 23%;
+        top: 2%;
+        right: 6%;
+    }
+
+    .boton1 {
+        background-color: #693bb7;
+        color: #fff;
+        padding: 8px 28px;
+        line-height: 24px;
+        font-size: 10px;
+        font-weight: 600;
+        letter-spacing: .01em;
+        width: 20%;
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        overflow: hidden;
+        cursor: pointer;  
+        position: absolute;
+        top: 2%;
+        right: 4%;
+        margin-top: 10px;
+        margin-right: 10px;
+       
+      }
+      
+.boton1:hover {
+    background-color: #a582e0; /* Cambia el color de fondo al pasar el cursor */
+  }
+  .email {
+    width: 50%;
+    height: 10%;
+    margin-left: 25%;
+    border-style: none;
+   border-radius: 5px;
+    background-color: rgb(244,242,249);
+
+  }
+  .password {
+    width: 50%;
+    height: 10%;
+    margin-top: 2%;
+    margin-left: 25%;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(244,242,249);
+  }
+  
+  .radio {
+  
+    margin-top: 5%;
+    margin-left: -25%;
+    flex-direction: row;
+    font-size: small;
+
+    
+  }
+
+  
+  .boton:hover {
+    background-color: #236a72c5;
+  }
+  
+  .boton {
+    background-color: #2fbf6c;
+    color: #fff;
+    padding: 8px 28px;
+    border-radius: 5px;
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .02em;
+    width: 50%;
+    margin-top: 2%;
+    margin-left: 25%;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  
+  .form a {
+    color: #000000;
+    text-decoration: none;
+    margin-top: 2%;
+    text-align: center;
+  }
+  
+  .resaltar {
+    color: #693bb7;
+    cursor: pointer;
+  }
+
